@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تأكيد الطلب - Hussein Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            Hussein<span>Store</span>
+        </div>
+
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="index.html">الألعاب</a>
+            <a href="index.html">تطبيقات الشات</a>
+            <a href="#">تتبع الطلب</a>
+        </nav>
+
+        <button class="login-btn">
+            تسجيل الدخول
+        </button>
+
+    </header>
+
+
+    <main class="product-page">
+
+        <div class="product-box">
+
+            <div class="product-info">
+
+                <h1>تأكيد الطلب</h1>
+
+                <p>
+                    يرجى التأكد من معلومات الطلب قبل المتابعة
+                </p>
+
+
+                <div class="order-summary">
+
+                    <div>
+                        <span>المنتج:</span>
+                        <strong id="confirm-product">
+                            -
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>الباقة:</span>
+                        <strong id="confirm-package">
+                            -
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>Player ID:</span>
+                        <strong id="confirm-player-id">
+                            -
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>السعر:</span>
+                        <strong id="confirm-price">
+                            -
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="main-btn order-btn"
+                    onclick="confirmOrder()"
+                >
+                    تأكيد الطلب
+                </button>
+
+
+                <button
+                    class="main-btn"
+                    onclick="history.back()"
+                >
+                    رجوع
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="confirm.js"></script>
+
+</body>
+
+</html>
