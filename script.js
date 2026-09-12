@@ -11,7 +11,7 @@ const products = {
 
     pubg: {
         name: "PUBG Mobile",
-        image: "/image/pubg_mobile.jpg",
+        image: "image/pubg_mobile.jpg",
 
         packages: [
             { name: "60 UC", price: 130 },
@@ -24,7 +24,7 @@ const products = {
 
     freefire: {
         name: "Free Fire",
-        image: "/image/freefire_img.jpg",
+        image: "image/freefire_img.jpg",
 
         packages: [
             { name: "100 Diamond", price: 132 },
@@ -37,7 +37,7 @@ const products = {
 
     jawaker: {
         name: "Jawaker",
-        image: "/image/jawaker.jpg",
+        image: "image/jawaker.jpg",
 
         packages: [
             { name: "10000 Coins", price: 157 },
@@ -50,7 +50,7 @@ const products = {
 
     bubu: {
         name: "Bubu Live",
-        image: "/image/poopo.jpg",
+        image: "image/poopo.jpg",
 
         packages: [
             { name: "15000 Coins", price: 218 },
@@ -63,7 +63,7 @@ const products = {
 
     taka: {
         name: "Taka",
-        image: "/image/taka.jpg",
+        image: "image/taka.jpg",
 
         packages: [
             { name: "10000 Coins", price: 148 },
